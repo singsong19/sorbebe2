@@ -1,0 +1,142 @@
+#wrap {
+    width: 320px;
+}
+header {
+    height: 50px;
+    position: relative;
+    /* background-color:#fff; */
+}
+header a{
+    font-size: 0;
+}
+.logo {
+    display:block;
+    height:50px;
+    background-image: url(../img/logo.gif);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+
+}
+.serch a{
+    display:block;
+    width:30px;
+    height:50px;
+    background-image: url(../img/icon_sc.png);
+    background-size:25px auto;
+    background-repeat: no-repeat;
+    background-position: 0px center;
+
+}
+.bar a {
+    display:block;
+    width:30px;
+    height:50px;
+    background-image: url(../img/icon_menu.jpg);
+    background-size: 25px auto;
+    background-repeat: no-repeat;
+    background-position: 0px center;
+}
+.icon {
+    margin-left: 50px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.icon p{
+    float: left;
+    margin-left: 40px;
+}
+.icon:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.main img{
+    width:320px;
+}
+section{
+   /* border-top: 50px; 
+   border-color: gray;
+   border-style: solid; */
+   border-bottom: 10px #ccc solid;
+}
+.new h2 {
+    margin: 20px 15px;
+}
+.new img {
+    width: 140px;
+}
+.new li {
+    float: left;
+    margin: 5px;
+}
+.new .item:after {
+    display: block;
+    content:"";
+    clear: both;
+}
+.new .korean {
+    /* text-align: center; */
+    font-size: 14px;
+    color:#333;
+}
+.new .english {
+    font-size: 14px;
+    color:#999;
+}
+.text {
+    padding: 15px 6px;
+}
+.drink {
+    border: 0.1px;
+    border-color: gray;
+    border-style: solid;
+}
+.new{
+    padding:5px;
+    padding-bottom: 20px;
+}
+.info h2 {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info h2{
+    position: relative;
+}
+.info div{   
+    display: block;
+    width: 20px;
+    height: 15px;     
+    background-image: url(../img/more.png);
+    background-size: 15px auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    /* top:0;
+    right:0; */
+}
+.info ul {
+    margin-bottom:20px;
+}
+.info li{
+    padding: 5px;
+    margin: 0px 10px;
+    border-top : 1px dotted #ccc;
+    /* font-size: 11px;
+    color: #121212; */
+}
+.info li:last-child {
+    border-bottom : 1px dotted #ccc;
+}
+.info li a {
+    font-size: 11px;
+    color: #121212;
+}
+
+
+
+
+
